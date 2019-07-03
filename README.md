@@ -7,13 +7,20 @@ _by @angrykoala_
 >Add Description Here
 
 **Features**
-* feature 1
-* feature 2
-
+* tsconfig reasonable configuration
+* testing with mocha ready to go
+* tslint
+* Travis CI integration
+* Test Coverage
 
 ## Getting Started
 
 > How to use your project
+
+Having `node` and `npm` installed:
+1. `npm install`
+2. `npm test`
+3. `npm start`
 
 ## Examples
 
