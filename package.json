@@ -7,7 +7,7 @@
     "test": "npm run tsc && mocha -r ts-node/register --exit tests/hooks.ts tests/**/*.test.ts",
     "tsc": "rm -rf dist && tsc",
     "tslint": "tslint *.ts lib/*.ts lib/*/*.ts lib/*/*/*.ts",
-    "prepublishOnly": "npm test"
+    "prepublishOnly": "npm run tslint && npm test"
   },
   "repository": {
     "type": "git",
